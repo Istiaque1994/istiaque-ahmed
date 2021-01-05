@@ -1,0 +1,399 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+/*--Header Area--*/
+.header-area {
+  background: #6ae6ab8a;
+  padding: 20px 0px;
+}
+.header-area .container {
+  display: block;
+  width: 1170px;
+  height: 58px;
+  margin: 0px auto;
+}
+.header-area .menu {
+  float: right;
+}
+.header-area .menu ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 30px;
+}
+.header-area .menu ul li:last-child {
+  margin-right: 0px;
+}
+.header-area .container .menu ul li a {
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: #733ed9;
+}
+.header-area .container .menu ul li a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+/*-- Banner Area --*/
+.banner-area {
+  display: block;
+  background-image: url("images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.banner-area .container {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+}
+.banner-area .container .text-box {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-top: 8em;
+}
+.banner-area .container .text-box h1 {
+  display: block;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  color: #733ed9;
+}
+.banner-area .container .text-box h2 {
+  display: block;
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 500;
+  color: #733ed9;
+}
+.banner-area .container .text-box a.btn-hire {
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: rgba(116, 62, 217, 0.69);
+  margin-top: 20px;
+  padding: 10px 35px;
+}
+.banner-area .container .image-img {
+  width: 40%;
+  float: left;
+  margin-left: 15%;
+}
+.banner-area .container .image-img img {
+  display: block;
+  width: 400px;
+  margin: 60px 0px;
+}
+
+/*-- About Area --*/
+.about-area {
+  display: block;
+  background-image: url("images/banner2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.about-area .container {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+}
+.about-area .container .text-box {
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+  padding-top: 5em;
+}
+.about-area .container .text-box h3 {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  color: #733ed9;
+}
+.about-area .container .text-box img {
+  display: block;
+  width: 90px;
+  height: 10px;
+  margin: 0px auto;
+}
+.about-area .container .text-box p {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: #733ed9;
+  line-height: 26px;
+  width: 530px;
+  margin-top: 20px;
+}
+.about-area .container .text-box a.btn-hire {
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: rgba(116, 62, 217, 0.69);
+  margin-top: 20px;
+  padding: 10px 35px;
+}
+.about-area .container .image-img {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+}
+.about-area .container .image-img img {
+  display: block;
+  width: 400px;
+  height: 362px;
+  margin: 90px 0px;
+}
+
+/*-- Skill Area --*/
+.skill-area {
+  display: block;
+  height: 200px;
+  padding-top: 30px;
+}
+.skill-area .container {
+  display: block;
+  width: 1170px;
+  margin: 0px auto;
+}
+.skill-area .container h3 {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #733ed9;
+  width: 164px;
+  margin: 0px auto;
+}
+.skill-area .container img {
+  display: block;
+  width: 120px;
+  height: 10px;
+  margin: 0px auto;
+}
+.skill-area .container .skill {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+  margin-top: 30px;
+}
+.skill-area .container .skill h4 {
+  display: block;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #733ed9;
+  margin-bottom: 10px;
+}
+.skill-area .container .skill .progress {
+  height: 20px;
+  background-color: #ffffff;
+  border: 1px solid rgba(116, 62, 217, 0.69);
+}
+.skill-area .container .skill .progress .progress-bar {
+  height: 20px;
+  background-color: rgba(116, 62, 217, 0.69);
+}
+.skill-area .container .skill .progress #html {
+  width: 90%;
+}
+.skill-area .container .skill .progress #css {
+  width: 80%;
+}
+
+/*-- Work Area --*/
+.work-area {
+  display: block;
+  height: 600px;
+  background: #6ae6ab8a;
+  padding-top: 80px;
+}
+.work-area .container {
+  display: block;
+  width: 1170px;
+  margin: 0px auto;
+  padding-top: 30px;
+}
+.work-area .container .work h3 {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  color: #733ed9;
+}
+.work-area .container .work img {
+  display: block;
+  width: 270px;
+  height: 10px;
+  margin: 0px auto;
+}
+.work-area .container .work .three-box {
+  width: 27%;
+  float: left;
+  margin-left: 3%;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgb(131, 131, 131);
+  height: 320px;
+  margin-top: 60px;
+  padding: 5px;
+}
+.work-area .container .work .three-box img {
+  display: block;
+  width: 315px;
+  height: 196px;
+}
+.work-area .container .work .three-box h4 {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+  color: #733ed9;
+  margin-top: 12px;
+}
+.work-area .container .work .three-box p {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  color: #733ed9;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+/*-- Contact Area --*/
+.contact-area {
+  display: block;
+  height: 340px;
+  background: #ffffff;
+  padding-top: 80px;
+}
+.contact-area .container {
+  display: block;
+  width: 1100px;
+  height: 273px;
+  background-image: url("images/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px auto;
+}
+.contact-area .container .box-contact {
+  width: 50%;
+  float: left;
+  margin: 112px 0px;
+}
+.contact-area .container .box-contact h4 {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(116, 62, 217, 0.69);
+}
+.contact-area .container .box-contact .btn-chat {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(116, 62, 217, 0.69);
+  line-height: 42px;
+  height: 42px;
+  width: 180px;
+  border: 2px solid rgba(116, 62, 217, 0.69);
+  border-radius: 10px;
+  margin: 0px auto;
+}
+
+/*--Social Area--*/
+.social-area {
+  background: #ffffff;
+}
+.social-area .container {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+}
+.social-area .container h4 {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(116, 62, 217, 0.69);
+}
+.social-area .container a.mail {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  color: rgba(116, 62, 217, 0.69);
+  width: 370px;
+  margin: 0px auto;
+}
+.social-area .container ul {
+  display: block;
+  text-align: center;
+}
+.social-area .container ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 10px;
+}
+.social-area .container ul li:last-child {
+  margin-right: 0px;
+}
+.social-area .container ul li a img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+/*--Footer Area--*/
+.footer-area {
+  background: #ffffff;
+}
+.footer-area .container {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+}
+.footer-area .container h6 {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(116, 62, 217, 0.69);
+}
