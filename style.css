@@ -261,7 +261,12 @@ a {
   float: left;
   margin-left: 3%;
   background: #ffffff;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 20px;
+  border-top: 2px solid rgba(116, 62, 217, 0.69);
+  border-left: 2px solid rgba(116, 62, 217, 0.69);
   box-shadow: 5px 5px 10px rgb(131, 131, 131);
   height: 320px;
   margin-top: 60px;
